@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.7.2
+FROM richarvey/nginx-php-fpm:3.1.3
 
 # Copy application files
 COPY . /var/www/html
